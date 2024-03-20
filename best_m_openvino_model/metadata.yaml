@@ -1,0 +1,17 @@
+description: Ultralytics best_m model trained on /content/datasets/ufa-s-crossroads-v1-6/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-03-21T01:09:52.193808'
+version: 8.1.15
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: bus
+  1: car
+  2: ped
+  3: truck
+  4: van
